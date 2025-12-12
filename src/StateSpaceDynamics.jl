@@ -28,4 +28,7 @@ include("MixtureModels.jl")
 include("Preprocessing.jl")
 include("Valid.jl")
 
+include("Subclasses/Oscillators.jl")
+include("Subclasses/Autoregressives.jl")
+
 end
