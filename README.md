@@ -110,6 +110,8 @@ Help us maintain a welcoming environment for researchers and developers.
   - [x] Autoregressive HMMs (ARHMM)
 - [x] Linear Dynamical Systems
   - [x] Gaussian Linear Dynamical Systems (Kalman Filter)
+    - [ ] Matsuda and Komaki Oscillators
+    - [ ] Autoregressive Models
   - [x] Poisson Linear Dynamical Systems (PLDS)
   - [ ] PFLDS
   - [x] Switching Linear Dynamical Systems (SLDS)
@@ -134,7 +136,9 @@ Help us maintain a welcoming environment for researchers and developers.
 
 - [ssm](https://github.com/lindermanlab/ssm) : A python package for state space models.
 
-- [dynamax](https://github.com/probml/dynamax): A python package built on JAX for state space modelling (supercedes ssm).
+- [dynamax](https://github.com/probml/dynamax) : A python package built on JAX for state space modelling (supercedes ssm).
+
+- [somata](https://github.com/mh105/somata) : A python package for State-space oscillator modeling and time series analysis. Designed with EEG in mind.
 
 ## Contributing
 If you would like to contribute, report a bug, request a new feature, or simply give feedback, please feel free to [open an issue](https://github.com/depasquale-lab/StateSpaceDynamics.jl/issues) and we will get back to you in a timely manner.
@@ -150,3 +154,5 @@ If you would like to contribute, report a bug, request a new feature, or simply 
 4. Paninski, L. et al. (2010). A new look at state-space models for neural data. Journal of computational neuroscience, 29(1-2), 107-126.
 
 5. Macke, J. H. et al. (2011). Empirical models of spiking in neural populations. Advances in neural information processing systems, 24, 1350-1358.
+
+6. Matsuda T., Komaki F. (2017). Time Series Decomposition into Oscillation Components and Phase Estimation. Neural Computation 29(2),332-367.
